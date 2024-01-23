@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    padding:15px 30px 15px 15px;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+  
+   
+}
+.header img{
+    height: 40px;
+    width: 40px;
+}
+.list{
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+}
+.header li a{
+    text-decoration: none;
+}
+.headerbtn{
+    background-color:rgb(32, 32, 70);
+    color:white;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+    padding:14px 25px ;
+}
+.second{
+display: flex;
+justify-content: space-around;
+position: relative;
+bottom: 450px;
+}
+.secondbody{
+ display: block;
+ gap: 30px;
+}
+.second h1{
+    color:rgb(32, 32, 70) ;
+}
+span{
+    color: blue;
+}
+.second p{
+    padding-top: 10px;
+    padding-bottom: 28px;
+}
+.second img{
+    width: 30%;
+    height: 30%;
+}
+.second .but{
+    background-color:blue;
+    color:white;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+    padding:14px 25px ;
+}
+.second .bot{
+    background-color:white;
+    text-decoration: none;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    padding:14px 25px ;
+    margin: 25px;
+}
+.third{
+    text-align: center;
+   position: relative;
+  bottom: 400px;
+}
+.third h5{
+    color: blue;
+}
+.third h2{
+    color:rgb(32, 32, 70);
+}
+#big{
+    position: relative;
+    bottom: 300px;
+}
+.icons{
+    display:flex;
+    justify-content: space-around;
+    align-items:;
+    
+}
+.fourth{
+    display: flex;
+    justify-content: space-around;
+}
+.inside1{
+    display: block;
+    background-color: rgba(252, 226, 177, 0.863);
+    padding: 25px;
+}
+.inside2{
+    display: block;
+    background-color: rgb(204, 255, 204);
+    padding: 25px;
+}
+.inside3{
+    display: block;
+    background-color: rgb(255, 228, 233);
+    padding: 25px;
+}
+.fifth{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    position: relative;
+    bottom: 300px;
+}
+.fifthb{
+    display: block;
+    gap: 30px;
+    margin-top: 70px;
+
+}
+.fifth p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fifth h4{
+    color: blue;
+    padding-bottom: 10px;
+}
+.fifth h1{
+    color:rgb(32, 32, 70);
+}
+.fifth a{
+    background-color:blue;
+    color:white;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+    padding:14px 25px ;
+}
+.sixth{
+    background-color: rgb(32, 32, 70);
+    display: flex;
+    justify-content:space-around;
+    padding: 40px;
+    border-radius: 7px;
+    margin: 44px;
+    position: relative;
+    bottom: 300px;
+}
+.sixth1{
+    display: block;
+    gap: 30px;
+    color: white;
+}
+.sixth p{
+    font-size: 12px;
+}
+#contain{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 250px;
+    
+}
+.seventh{
+    width: 200%;
+    display: block;
+    gap: 30px;
+    position: relative;
+   left: 70px;
+   flex: 1;
+  
+}
+.seventh h4{
+    color: blue;
+    padding-bottom: 15px;
+}
+.seventh h1{
+    color: rgb(32, 32, 70);
+    padding-bottom: 15px;
+}
+.seventh p{
+    padding-bottom: 15px;
+}
+.seventh a{
+    background-color:blue;
+    color:white;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+    padding:14px 25px ;
+    position: absolute;
+}
+.box{
+display: inline-block ;
+padding:  25px;
+flex: 1;
+}
+.box1{
+display: flex;
+gap: 20px;
+box-sizing: border-box;
+}
+.box2{
+display: flex;
+gap: 20px;
+box-sizing: border-box;
+}
+.box1 h4{
+    display: inline-block;
+}
+.box1 p{
+ padding-bottom: 30px;
+ font-size: 15px;
+ color: #9e9c9c;
+}
+.box2 p{
+ padding-bottom: 30px;
+ font-size: 15px;
+ color: #9e9c9c;
+}
+.cube1{
+   flex-direction: column; 
+   border:1px solid #cccccc ;
+   box-shadow: 5px 10px 15px #888888;
+   padding: 20px;
+}
+.cube2{
+    flex-direction: column; 
+   border:1px solid #cccccc ;
+   box-shadow: 5px 10px 15px #888888;
+   padding: 20px;
+}
+.cube3{
+    flex-direction: column; 
+   border:1px solid #cccccc ;
+   box-shadow: 5px 10px 15px #888888;
+   padding: 20px;
+}
+.cube4{
+    flex-direction: column; 
+    border:1px solid #cccccc ;
+    box-shadow: 5px 10px 15px #888888;
+    padding: 20px;
+}
+.eight{
+text-align: center;
+position: relative;
+bottom: 200px;
+}
+
+.eight li a{
+   text-decoration: none; 
+}
+.eight li{
+    display: inline-block;
+    padding: 20px;
+}
+.eight h5{
+    color: blue;
+}
+.eight h2{
+    color:  rgb(32, 32, 70);
+    padding-bottom: 15px;
+}
+.ninth{
+   text-align: center;
+   padding: 35px;
+   position: relative;
+   bottom: 250px;
+}
+.tenth{
+   margin: 20px;
+   position: relative;
+bottom: 250px;
+left: 70px;
+}
+.tenth h5{
+    color: blue;
+}
+.tenth h2{
+    color: rgb(32, 32, 70);
+    font-size: 40px;
+}
+.tenth a{
+    float: right;
+    background-color:blue;
+    color:white;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+    padding:14px 25px ;
+    margin-bottom: 80px;
+    position: relative;
+    right: 70px;
+}
+#eleventh{
+   display: flex;
+    position: relative;
+bottom: 150px;
+justify-content: space-between;
+left: 70px;
+}
+#eleventh img{
+    width: 75px;
+    height: 75px;
+  display:flex;
+  justify-content: space-between;
+}
+.pic1{
+    display: flex;
+}
+.pic1 img{
+    position: relative;
+    bottom: 25px;
+}
+.pic2{
+    display:flex;
+}
+.pic2 img{
+    position: relative;
+    bottom: 25px;
+}
+.twelfth{
+ text-align: center;
+ position: relative;
+bottom: 150px;
+left: 70px;
+}
+.twelfth h5{
+  color: blue;
+}
+.twelfth h1{
+    color: rgb(32, 32, 70);
+}
+.twelfth h2{
+    color: rgb(32, 32, 70);
+}
+.twelfth a{
+    background-color:blue;
+    color:white;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+    padding:14px 25px ;
+   position: relative;
+   top: 55px;
+   right: 200px;
+}
+.footer{
+    display: flex;
+  justify-content: space-between;
+  background-color:rgb(32, 32, 70);
+  padding: 35px;
+}
+.foot{
+    display: block;
+}
+.foot p{
+    color: white;
+}
+.footerl{
+    text-align: center;
+}
+.footerl li a{
+    text-decoration: none;
+    color: white;
+ 
+}
+.footerl h4{
+    color: white;
+    padding-bottom: 15px;
+}
+.footerl li{
+    list-style-type: none ;
+    
+}
